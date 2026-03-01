@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>The Party Codex</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>The Party Codex</h1>
+
+<div id="auth-section">
+  <input id="email" placeholder="Email">
+  <input id="password" type="password" placeholder="Password">
+  <button onclick="signup()">Sign Up</button>
+  <button onclick="login()">Login</button>
+</div>
+
+<div id="app" style="display:none;">
+  <h2>Your Campaigns</h2>
+  <div id="campaignList"></div>
+  <button onclick="createCampaign()">Add New Campaign</button>
+</div>
+
+<script type="module" src="app.js"></script>
+</body>
+</html>
